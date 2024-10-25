@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "netlify-lambda serve src",
-    "build": "netlify-lambda build src"
+    "build": "NODE_OPTIONS='--openssl-legacy-provider' netlify-lambda build src"
   },
   "repository": {
     "type": "git",
